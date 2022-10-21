@@ -1,4 +1,4 @@
-![картинка](https://info.algorithmia.com/hs-fs/hubfs/Imported_Blog_Media/git-support-algorithm-development-1.jpg?width=1200&height=630&name=git-support-algorithm-development-1.jpg)
+![Logo](https://info.algorithmia.com/hs-fs/hubfs/Imported_Blog_Media/git-support-algorithm-development-1.jpg?width=1200&height=630&name=git-support-algorithm-development-1.jpg)
 # Работа с Git
 
 ## 1. Проверка наличия установленного Git 
@@ -84,7 +84,7 @@ git log
 git log --oneline
 ```
 Например:
-![картинка](logoneline.png)
+![картинка](images\logoneline.png)
 
 Покажет только 2 последних коммита
 ```
@@ -132,7 +132,7 @@ git checkout master
 git branch
 ```
 При выполнении этой строки мы получим список существующих веток, где символом * будет отмечена ветка, где вы сейчас находитесь. Это может выглядеть так:
-![картинка](branch.png)
+![картинка](images\branch.png)
 
 После создания новой ветки, перехода в нее и совершения всех запланированных преобразований, нужно сделать коммит в эту же ветку, чтобы сохранить все изменения. Команды для выполнения этих действий ничем не отличаются от команд для создания коммитов в ветке мастер.
 
@@ -178,7 +178,7 @@ git log --graph --oneline --decorate
 git log --all --graph --oneline --decorate
 ```
 Пример веток и их слияний 
-![картинка](graph.png)
+![картинка](images\graph.png)
 ## 10 Игнорирование файлов и каталогов с помощью файла .gitignore
 
 * Вы можете заставить Git игнорировать определенные файлы и каталоги, то есть исключить их от отслеживания Git - **путем создания одного или нескольких файлов .gitignore в вашем репозитории.**
