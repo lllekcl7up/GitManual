@@ -84,7 +84,7 @@ git log
 git log --oneline
 ```
 Например:
-![картинка](https://github.com/lllekcl7up/GitManual/blob/main/images/logoneline.png)
+![картинка](https://raw.githubusercontent.com/lllekcl7up/GitManual/d2d495805a5dbf655c86b3a0c207b85def7f54b9/images/logoneline.png)
 
 Покажет только 2 последних коммита
 ```
@@ -132,7 +132,7 @@ git checkout master
 git branch
 ```
 При выполнении этой строки мы получим список существующих веток, где символом * будет отмечена ветка, где вы сейчас находитесь. Это может выглядеть так:
-![картинка](https://github.com/lllekcl7up/GitManual/blob/main/images/branch.png)
+![картинка](https://raw.githubusercontent.com/lllekcl7up/GitManual/d2d495805a5dbf655c86b3a0c207b85def7f54b9/images/branch.png)
 
 После создания новой ветки, перехода в нее и совершения всех запланированных преобразований, нужно сделать коммит в эту же ветку, чтобы сохранить все изменения. Команды для выполнения этих действий ничем не отличаются от команд для создания коммитов в ветке мастер.
 
@@ -178,7 +178,7 @@ git log --graph --oneline --decorate
 git log --all --graph --oneline --decorate
 ```
 Пример веток и их слияний 
-![картинка](https://github.com/lllekcl7up/GitManual/blob/main/images/graph.png)
+![картинка](https://raw.githubusercontent.com/lllekcl7up/GitManual/d2d495805a5dbf655c86b3a0c207b85def7f54b9/images/graph.png)
 ## 10 Игнорирование файлов и каталогов с помощью файла .gitignore
 
 * Вы можете заставить Git игнорировать определенные файлы и каталоги, то есть исключить их от отслеживания Git - **путем создания одного или нескольких файлов .gitignore в вашем репозитории.**
