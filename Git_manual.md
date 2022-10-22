@@ -301,9 +301,3 @@ https://git-scm.com/book/ru/v2 .
 Официальные и всеобъемлющие справочные страницы, которые включены в сам пакет Git. https://git-scm.com/docs
 
 
-<style>
-green { color: green }
-</style>
-<green> Compare & pull request</green>
-
-
