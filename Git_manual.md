@@ -274,10 +274,7 @@ git clone <URL удаленного репозитория>
 ```
 git push --set-upstream origin <имя новой ветки в которой Вы делали изменения>
 ```
-#### 5. После чего вам нужно вернуться на сайт GitHub, где в вашем репозитории должна появится зеленая кнопка <style>
-green { color: green }
-</style>
-<green> Compare & pull request</green> .
+#### 5. После чего вам нужно вернуться на сайт GitHub, где в вашем репозитории должна появится зеленая кнопка <span style="color:green">*Compare & pull request*</span>.
 
 <img src="https://github.com/lllekcl7up/GitManual/blob/main/images/pullrequest.png?raw=true" alt="drawing" width="600"/>
 
