@@ -1,4 +1,5 @@
-![Logo](https://info.algorithmia.com/hs-fs/hubfs/Imported_Blog_Media/git-support-algorithm-development-1.jpg?width=1200&height=630&name=git-support-algorithm-development-1.jpg)
+<img src="https://info.algorithmia.com/hs-fs/hubfs/Imported_Blog_Media/git-support-algorithm-development-1.jpg?width=1200&height=630&name=git-support-algorithm-development-1.jpg" alt="drawing" width="500"/>
+
 # Работа с Git
 
 ## 1. Проверка наличия установленного Git 
@@ -84,7 +85,10 @@ git log
 git log --oneline
 ```
 Например:
-![картинка](https://raw.githubusercontent.com/lllekcl7up/GitManual/d2d495805a5dbf655c86b3a0c207b85def7f54b9/images/logoneline.png)
+
+<img src="https://raw.githubusercontent.com/lllekcl7up/GitManual/d2d495805a5dbf655c86b3a0c207b85def7f54b9/images/logoneline.png" alt="drawing" width="600"/>
+
+Например:
 
 Покажет только 2 последних коммита
 ```
@@ -132,7 +136,8 @@ git checkout master
 git branch
 ```
 При выполнении этой строки мы получим список существующих веток, где символом * будет отмечена ветка, где вы сейчас находитесь. Это может выглядеть так:
-![картинка](https://raw.githubusercontent.com/lllekcl7up/GitManual/d2d495805a5dbf655c86b3a0c207b85def7f54b9/images/branch.png)
+
+<img src="https://raw.githubusercontent.com/lllekcl7up/GitManual/d2d495805a5dbf655c86b3a0c207b85def7f54b9/images/branch.png" alt="drawing" width="400"/>
 
 После создания новой ветки, перехода в нее и совершения всех запланированных преобразований, нужно сделать коммит в эту же ветку, чтобы сохранить все изменения. Команды для выполнения этих действий ничем не отличаются от команд для создания коммитов в ветке мастер.
 
@@ -178,7 +183,9 @@ git log --graph --oneline --decorate
 git log --all --graph --oneline --decorate
 ```
 Пример веток и их слияний 
-![картинка](https://raw.githubusercontent.com/lllekcl7up/GitManual/d2d495805a5dbf655c86b3a0c207b85def7f54b9/images/graph.png)
+
+<img src="https://raw.githubusercontent.com/lllekcl7up/GitManual/d2d495805a5dbf655c86b3a0c207b85def7f54b9/images/graph.png" alt="drawing" width="500"/>
+
 ## 10 Игнорирование файлов и каталогов с помощью файла .gitignore
 
 * Вы можете заставить Git игнорировать определенные файлы и каталоги, то есть исключить их от отслеживания Git - **путем создания одного или нескольких файлов .gitignore в вашем репозитории.**
@@ -202,7 +209,10 @@ git log --all --graph --oneline --decorate
 В приведенном выше примере Git игнорирует все файлы с расширением .txt за исключением файлов с именем important.txt 
 
 # 11. Работа с удаленным рипозитарием
- Прежде чем работать с удаленными репозитариями Вам необходимо зарегестрироваться на сайте _GitHub_ :  https://github.com/ , где пройдя стандартную регистрацию, Вы сможете создать удаленный репозитарий. Выбрав при этом будет он публичным(общественным), или приватным(вы сами решите кому давать доступ) ![newrepo](https://github.com/lllekcl7up/GitManual/blob/main/images/newrepo.png?raw=true)
+ Прежде чем работать с удаленными репозитариями Вам необходимо зарегестрироваться на сайте _GitHub_ :  https://github.com/ , где пройдя стандартную регистрацию, Вы сможете создать удаленный репозитарий. Выбрав при этом будет он публичным(общественным), или приватным(вы сами решите кому давать доступ) 
+ 
+ <img src="https://github.com/lllekcl7up/GitManual/blob/main/images/newrepo.png?raw=true" alt="drawing" width="500"/>
+ 
 
 ### 11.1 Просмотр удалённых репозиториев
 Для того, чтобы просмотреть список настроенных удалённых репозиториев, вы можете запустить команду 
@@ -215,7 +225,9 @@ git remote
 ```
 git remote -v 
 ```
-Например: ![remote-v](https://github.com/lllekcl7up/GitManual/blob/main/images/remote-v.png?raw=true)
+Например:
+
+ <img src="https://github.com/lllekcl7up/GitManual/blob/main/images/remote-v.png?raw=true" alt="drawing" width="500"/>
 
 
 ### 11.2 Добавление удалённых репозиториев
@@ -245,7 +257,7 @@ git pull
 * Если коротко, форки и пулл-реквесты нужны, чтобы любой пользователь мог внести свой вклад в любой открытый проект, репозиторий которого есть на GitHub. Кроме того, перед тем как влить ваши изменения в основной репозиторий, ответственные обязательно проверят ваш код на наличие ошибок и уязвимостей. Таким образом, даже если ваши изменения не примут, вы получите первоклассный code-review с указанием всех неточностей.
 
 #### 1. Для начала зайдем на страницу репозитория проекта. Нажимаем на кнопку Fork, как показано на картинке. После этого Git создаст точную копию этого репозитория в вашем аккаунте.
-<img src="https://github.com/lllekcl7up/GitManual/blob/main/images/fork.png?raw=true" alt="drawing" width="800"/>
+<img src="https://github.com/lllekcl7up/GitManual/blob/main/images/fork.png?raw=true" alt="drawing" width="600"/>
 
 
 #### 2. Клонируем репозиторий к себе на компьютер командой 
